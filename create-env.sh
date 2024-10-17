@@ -1,3 +1,4 @@
+source_up
 config_name=$(basename $PWD)
 export KUBECONFIG=~/.kube/"$config_name"
 
